@@ -8,6 +8,7 @@ public class Main {
         
         System.out.println("=== HARDWARE MASTERLIST ===");
         for (Hardware h : masterlist) {
+            System.out.printf("ID: %-2d | Brand: %-15s | Interpretation: %s%n", 
                 h.getId(), h.getBrand(), h.interpretSpec());
         }
 
